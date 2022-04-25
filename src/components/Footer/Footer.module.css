@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.footer a{
+/* in der Lösung steht inherit, auch gut */
+.footer a {
   color: white;
 }
-

@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
   max-width: 1024px;
   padding-left: 16px;
   padding-right: 16px;
@@ -29,9 +30,18 @@
 
 .characterWrapper {
   position: fixed;
-  right: 0;
-  top: 16%;
+  left: 65%;
+  top: 15%;
   bottom: 20%;
   min-height: 500px;
   width: 35%;
+}
+
+.perspectiv {
+  position: fixed;
+  top: 60%;
+  height: 40%;
+  width: 100%;
+  left: 0;
+  background-color: hsl(195deg, 10%, 50%);
 }
