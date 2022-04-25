@@ -40,36 +40,42 @@ function App() {
         </header>
         <div className={styles.controlColumn}>
           <ControlPane
+            className={styles.test}
             title="Bodies"
             options={bodyOptions}
             currentOption={body}
             handleSelectOption={setBody}
           />
           <ControlPane
+            className={styles.test}
             title="Heads"
             options={headOptions}
             currentOption={head}
             handleSelectOption={setHead}
           />
           <ControlPane
+            className={styles.test}
             title="Faces"
             options={faceOptions}
             currentOption={face}
             handleSelectOption={setFace}
           />
           <ControlPane
+            className={styles.test}
             title="Accessories"
             options={accessoryOptions}
             currentOption={accessory}
             handleSelectOption={setAccessory}
           />
           <ControlPane
+            className={styles.test}
             title="Skin Color"
             options={skinColorOptions}
             currentOption={skinColor}
             handleSelectOption={setSkinColor}
           />
           <ControlPane
+            className={styles.test}
             title="Clothing Color"
             options={clothesColorOptions}
             currentOption={clothesColor}
